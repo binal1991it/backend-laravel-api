@@ -11,14 +11,14 @@ First, update the .env file with your own database information.
 
 then run the following commands in order.
 
+composer install
+
 php artisan migrate
 
 php artisan jwt:secret
 
 ## Run the commands below to run the React application.
 
-npm install
-
-npm run serve
+php artisan serve
 
 And enjoy the Coding!!!
